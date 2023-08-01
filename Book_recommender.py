@@ -3,10 +3,9 @@ import pickle
 import pandas as pd 
 import numpy as np 
 
-
-
-book = pickle.load(open('book_df.pkl','rb')) 
-similarity_fector = pickle.load(open('sim_fec_book.pkl','rb'))
+#load the pickle files from Book_datq
+book = pickle.load(open('Book_data/book_df.pkl','rb')) 
+similarity_fector = pickle.load(open('Book_data/sim_fec_book.pkl','rb'))
 
 st.title('Book Recommendation System')
 

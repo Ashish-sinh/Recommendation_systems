@@ -8,9 +8,9 @@ st.title('Movie Recommeder System')
 import pickle  
 
 
-# load data from the pickle file : 
-similarity_fector = pickle.load(open('sf.pkl','rb')) 
-df = pickle.load(open('df.pkl','rb'))
+# load data from the pickle file at Movie_data: 
+similarity_fector = pickle.load(open('Movie_data/sf.pkl','rb')) 
+df = pickle.load(open('Movie_data/df.pkl','rb'))
 img_id = df['imdbId'].values
 
 

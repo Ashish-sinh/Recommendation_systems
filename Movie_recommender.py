@@ -41,5 +41,5 @@ Selected_Movie = st.selectbox('Select Movie',df['title'].values)
 
 if st.button('Suggest Movie') :
     for i in recomendation(Selected_Movie):
-        st.write(i)
+        st.write('•',i)
         
